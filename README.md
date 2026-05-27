@@ -23,7 +23,7 @@ These instructions assume you have made a GitHub account.
 
 <!-- Known as "forking" the repository. -->
 
-- Fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
+- Use this repository as a template and change the name to `your-username.github.io`.
 
 See instructions from GitHub [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 
