@@ -7,12 +7,23 @@
 
 This is an academic website template, based off of Yaoyao Liu's [minimal-light](https://github.com/yaoyao-liu/minimal-light) theme.
  
+### Features
+
+- Markdown for easily editing content
+
+- Mathjax for Latex-style math equations
+
+- Syntax highlighting for code blocks, in many programming languages
 
 ## Step-by-step instructions
 
-### 1. Make a copy of this repository in your github account
+These instructions assume you have made a GitHub account.
+
+### 1. Make a copy of this repository in your Github account
 
 <!-- Known as "forking" the repository. -->
+
+- Fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
 
 See instructions from GitHub [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 
@@ -22,6 +33,9 @@ Then, do the following steps to the files in *your* version of the repository.
 ### 1.1. Make your copy viewable online
 
 The easiest way is to publish it as your GitHub Pages website.
+
+- Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+
 
 See [instructions here](https://docs.github.com/en/pages/quickstart).
 
@@ -34,18 +48,20 @@ Also, this means you need to finish the rest of these steps ASAP to make the web
 ### 2. Edit the `_config.yml` file
 
 This contains basic data such as your name, institution, and some contact info.
+This is under the `# Basic Information` section.
 
+### 2.1 Photo
 Add a photo of yourself to the `assets/img/` directory.
 
 ### 3. Edit the `index.md` file
 
 This contains the main content of your website, other than the publications and notes.
-These are handled separately by a "fancier" process (by default).
+The publications and notes are handled separately by a "fancier" process (by default), see steps 4-5 below.
 
 Decide which sections you want to keep, which you want to delete, and which you want to reorder.
 You can add new sections too, if desired.
 
-Optionally, you could choose to write everything in the `index.md` file, but the tradeoff is you lose some built-in features.
+(Optionally, you could choose to write everything in the `index.md` file, but the tradeoff is you lose some built-in features.)
 
 ### 4. Edit the `publications.yml` file
 
@@ -71,9 +87,6 @@ See below
 - To modify the appearance of the publications and notes, edit the `_includes/publications.html` and `_includes/notes.html` files, respectively.
 
 
-## Optional customization 
-
-
 
 ## Advanced options
 
@@ -82,16 +95,6 @@ If you know a bit how to use git, then you can edit and test your website locall
 - **Using locally with Jekyll.** You may install Jekyll on your own computer and generate static web pages (i.e., HTML files) with this template. After that, you may upload the HTML files to your server.
 
 The detailed instructions are available below.
-
-
-### Using with the GitHub Pages Service
-
-There are two ways to use this template on GitHub:
-
-#### Fork this repository
-- Fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
-
-- Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
 
 

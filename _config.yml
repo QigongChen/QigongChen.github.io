@@ -30,9 +30,9 @@ github_link: https://github.com/harryrichman
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-description: The academic personal homepage of Gary Fishman.
-keywords: Gary Fishman academic research mathematics
-canonical: https://harryrichman.github.io/minimal-light-academic/
+# description: The academic personal homepage of Gary Fishman.
+# keywords: Gary Fishman academic research mathematics
+# canonical: https://harryrichman.github.io/minimal-light-academic/
 
 
 ############################
@@ -56,7 +56,7 @@ enable_notes_thumbnails: false
 # favicon_dark: ./assets/img/favicon-dark.png
 
 # Google Analytics ID
-# Please uncomment this if you use Google Analytics
+# Uncomment this if you use Google Analytics
 # google_analytics: UA-000000000-0
 
 
@@ -80,6 +80,4 @@ exclude:
   - html_site/
   - LICENSE
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
   - minimal-light.gemspec
