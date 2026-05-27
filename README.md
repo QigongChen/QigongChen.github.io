@@ -2,8 +2,10 @@
 
 [![LICENSE](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://github.com/harryrichman/minimal-light-academic/blob/main/LICENSE)
 
-This is an academic website template, based off of Yaoyao Liu's [minimal-light](https://github.com/yaoyao-liu/minimal-light) theme.
 \[[Demo the theme](https://harryrichman.github.io/minimal-light-academic/)\]  
+
+
+This is an academic website template, based off of Yaoyao Liu's [minimal-light](https://github.com/yaoyao-liu/minimal-light) theme.
  
 
 ## Step-by-step instructions
@@ -33,7 +35,7 @@ Also, this means you need to finish the rest of these steps ASAP to make the web
 
 This contains basic data such as your name, institution, and some contact info.
 
-Add a photo to the `assets/img/` directory.
+Add a photo of yourself to the `assets/img/` directory.
 
 ### 3. Edit the `index.md` file
 
@@ -56,6 +58,7 @@ If you want to include thumbnails next to your publications, include these in th
 ### 5. Edit the `notes.yml` file
 
 This contains the data of your expository notes, presentation slides, posters, etc.
+It uses the same format as `publications.yml` from the previous step.
 
 Some data may require you to add files to the `assets/files/` directory.
 
@@ -63,9 +66,9 @@ Some data may require you to add files to the `assets/files/` directory.
 
 See below
 
-To modify the appearance of the website, edit `_layouts/homepage.html` and / or `_sass/minimal-light.scss`.
+- To modify the appearance of the website, edit `_layouts/homepage.html` and / or `_sass/minimal-light.scss`.
 
-To modify the appearance of the publications and notes, edit the `_includes/publications.html` and `_includes/notes.html` files, respectively.
+- To modify the appearance of the publications and notes, edit the `_includes/publications.html` and `_includes/notes.html` files, respectively.
 
 
 ## Optional customization 
@@ -90,8 +93,7 @@ There are two ways to use this template on GitHub:
 
 - Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
-#### Using this repository as a remote theme
-???
+
 
 ### Using Locally with Jekyll
 
