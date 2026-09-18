@@ -42,7 +42,7 @@ avatar: ./assets/img/profile_alt.jpg
 
 # Customization
 # option to choose between Serif or Sans Serif fonts.
-font: "Sans Serif" # "Serif" or "Sans Serif" 
+font: "Serif" # "Serif" or "Sans Serif" 
 # option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 # option to toggle the automatic dark theme
