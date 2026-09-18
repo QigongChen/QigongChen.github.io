@@ -2,7 +2,7 @@ main:
 
   - title: The reliability of (n,k)-star networks in terms of non-inclusive fault patterns
     authors: <strong>Qigong Chen</strong>, Jiafei Liu, Chia-Wei Lee, Jingli Wu, Gaoshi Li
-    journal:"Theoretical Computer Science"
+    journal: "Theoretical Computer Science"
     year: 2025
     month: 3
     tags:
