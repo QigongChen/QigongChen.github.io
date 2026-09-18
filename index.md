@@ -9,7 +9,12 @@ I will pursue my Master’s degree at the College of Computer and Data Science, 
 
 ## 💡 Research Interests
 My research interests mainly include graph theory, algorithm design and analysis, and fault-tolerant computing. I am currently focusing on fault diagnosis for artificial intelligence data center (AIDC) networks. Recently, I have been exploring the characteristics and requirements of AIDCs to facilitate follow-up research. In addition, I plan to integrate other graph-related techniques to further advance my future work.
-
+<div class="research-tags">
+  <span class="tag">Graph Theory</span>
+  <span class="tag">Algorithm Design</span>
+  <span class="tag">Fault-Tolerant Computing</span>
+  <span class="tag">AIDC</span>
+</div>
 
 ## 🎉 News
 <div style="height: 260px; overflow-y: auto; padding: 15px 15px 15px 25px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa;">
