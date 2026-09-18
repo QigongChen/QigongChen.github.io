@@ -1,9 +1,9 @@
 main:
 
-  - title: Descartes' rule of signs for finite fields
-    authors: Gary Fishman
+  - title: The reliability of (n,k)-star networks in terms of non-inclusive fault patterns
+    authors: Qigong Chen, Jiafei Liu, Chia-Wei Lee, Jingli Wu, Gaoshi Li
     notes: in preparation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/non-inclusive-fault-patterns.png
 
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
