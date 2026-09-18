@@ -10,9 +10,12 @@ I am a master's student at Fuzhou University, advised by [Qigong Chen(陈啟功)
 
 ## 💡 Research Interests
 
-- **Tropical geometry:** curves and Jacobians, Weierstrass points
-- **Number theory:** uniform bounds on rational points, Riemann hypothesis
-- **Biology:** evolution of bats
+<div style="height: 150px; overflow-y: auto; padding-right: 10px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px;">
+* [Feb. 2020] Seminar talk at NTU graduate student event
+* [Feb. 2020] Colloquium talk at Chung Hsing University 中興大學
+* [Sept. 2019] Started Ph.D. program at NTU
+* [Mar. 2019] Graduated from University of Washington with bachelors degree.
+</div>
 
 ## 🎉 News
 
