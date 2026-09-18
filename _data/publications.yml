@@ -3,7 +3,7 @@ main:
   - title: The reliability of (n,k)-star networks in terms of non-inclusive fault patterns
     authors: Qigong Chen, Jiafei Liu, Chia-Wei Lee, Jingli Wu, Gaoshi Li
     notes: in preparation
-    image: ./assets/img/non-inclusive-fault-patterns.png
+    image: ./assets/img/non-inclusive algorithm.png
 
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
