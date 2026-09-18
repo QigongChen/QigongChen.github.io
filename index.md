@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## 👋 About Me
 
 I am a master's student at Fuzhou University, advised by [Qigong Chen(陈啟功)].
 
