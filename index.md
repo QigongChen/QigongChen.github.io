@@ -3,19 +3,13 @@ layout: homepage
 ---
 
 ## 👨‍💻 About Me
-
-I am a master's student at Fuzhou University, advised by [Qigong Chen(陈啟功)].
+I will pursue my Master’s degree at the College of Computer and Data Science, Fuzhou University, commencing in Autumn 2026, under the supervision of Professor [Xiao-Yan Li].
 
 
 
 ## 💡 Research Interests
+My research interests mainly include graph theory, algorithm design and analysis, and fault-tolerant computing. I am currently focusing on fault diagnosis for artificial intelligence data center (AIDC) networks. Recently, I have been exploring the characteristics and requirements of AIDCs to facilitate follow-up research. In addition, I plan to integrate other graph-related techniques to further advance my future work.
 
-<div style="height: 150px; overflow-y: auto; padding-right: 10px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px;">
-* [Feb. 2020] Seminar talk at NTU graduate student event
-* [Feb. 2020] Colloquium talk at Chung Hsing University 中興大學
-* [Sept. 2019] Started Ph.D. program at NTU
-* [Mar. 2019] Graduated from University of Washington with bachelors degree.
-</div>
 
 ## 🎉 News
 <div style="height: 260px; overflow-y: auto; padding: 15px 15px 15px 25px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa;">
