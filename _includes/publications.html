@@ -1,3 +1,23 @@
+<style>
+  /* 让论文缩略图完整显示 */
+  .publications .teaser,
+  .publications img.teaser {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+
+  /* 限制图片容器最大高度，避免图片太高 */
+  .publications .col-sm-3.abbr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 220px;
+    overflow: hidden;
+  }
+</style>
+
 <div class="publications">
 
   {% if site.enable_publication_thumbnails %}
