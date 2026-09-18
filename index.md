@@ -18,7 +18,7 @@ I am a master's student at Fuzhou University, advised by [Qigong Chen(陈啟功)
 </div>
 
 ## 🎉 News
-<div style="height: 150px; overflow-y: auto; padding-right: 10px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px;">
+<div style="height: 260px; overflow-y: auto; padding: 15px 15px 15px 25px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa;">
 - **[Feb. 2020]**  Seminar talk at NTU graduate student event<br>
 - **[Feb. 2020]**  Colloquium talk at Chung Hsing University 中興大學<br>
 - **[Sept. 2019]** Started Ph.D. program at NTU<br>
