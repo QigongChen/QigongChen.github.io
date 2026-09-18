@@ -114,28 +114,41 @@
         }
 
           /* 研究标签样式 */
-    /* 研究标签样式 - 标签风格 */
+      /* 研究标签样式 - 书签/吊牌风格 */
   .research-tags {
     margin-top: 15px;
     margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px;
   }
   .tag {
+    position: relative;
     display: inline-block;
-    padding: 3px 10px;
-    background-color: #eaf3ff;     /* 浅蓝色底 */
-    color: #0366d6;                 /* 蓝色文字 */
-    border-radius: 6px;             /* 小圆角，更像标签 */
+    padding: 6px 14px 6px 22px;
+    background-color: #eaf3ff;
+    color: #0366d6;
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 0.3px;
-    border: none;                   /* 去掉边框 */
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 8% 50%);
+    /* 上面这行让左边变成尖角，如果想右边尖就把 8% 50% 换到右边 */
     transition: all 0.2s ease;
   }
+  /* 左边的小圆孔 */
+  .tag::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
   .tag:hover {
-    background-color: #0366d6;      /* 悬停时变深蓝 */
+    background-color: #0366d6;
     color: #ffffff;
   }
 
