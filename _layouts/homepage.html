@@ -79,50 +79,83 @@
 
       <br>
       <br>
-      <div class="social-icons">
-        {% if site.arxiv %}
-        <a style="margin: 0 5px 0 0" href="{{ site.arxiv }}">
-          <i class="ai ai-arxiv"></i>
-        </a>
-        {% endif %}
+      
+      <style>
+        .sidebar-links {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin-top: 20px;
+        }
+        .sidebar-links a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 15px;
+          border: 1px solid #d1d5da;
+          border-radius: 8px;
+          text-decoration: none;
+          color: #24292e;
+          font-weight: 500;
+          transition: all 0.2s ease;
+          background-color: #fff;
+        }
+        .sidebar-links a:hover {
+          border-color: #0366d6;
+          color: #0366d6;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .sidebar-links a i {
+          margin-right: 10px;
+          font-size: 1.2em;
+          width: 20px;
+          text-align: center;
+        }
+      </style>
 
-        {% if site.math_overflow %}
-        <a style="margin: 0 5px 0 0" href="{{ site.math_overflow }}">
-          <i class="ai ai-mathoverflow"></i>
-        </a>
-        {% endif %}
-
-        {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
-          <i class="ai ai-orcid"></i>
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
+      <div class="sidebar-links">
+        {% if site.email %}
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i> Email
         </a>
         {% endif %}
 
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        <a href="{{ site.google_scholar }}" target="_blank">
+          <i class="ai ai-google-scholar"></i> Google Scholar
+        </a>
+        {% endif %}
+
+        {% if site.github_link %}
+        <a href="{{ site.github_link }}" target="_blank">
+          <i class="fab fa-github"></i> GitHub
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
+        <a href="{{ site.linkedin }}" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        {% endif %}
+
+        <!-- 微信：点击弹窗显示微信号，你要把“你的微信号”换成真实的 -->
+        <a href="javascript:void(0);" onclick="alert('Eterinty3')">
+          <i class="fab fa-weixin"></i> WeChat
+        </a>
+
+        {% if site.orcid %}
+        <a href="{{ site.orcid }}" target="_blank">
+          <i class="ai ai-orcid"></i> ORCID
         </a>
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 0 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        <a href="{{ site.cv_link }}" target="_blank">
+          <i class="ai ai-cv"></i> CV
         </a>
         {% endif %}
-
       </div>
+      <br>
       <br>
 
     </header>
