@@ -79,15 +79,15 @@
 
       <br>
       <br>
-      
-      <style>
+            <style>
         .sidebar-links {
           display: flex;
           flex-direction: column;
           gap: 10px;
           margin-top: 20px;
         }
-        .sidebar-links a {
+        .sidebar-links a,
+        .sidebar-links-item {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -105,7 +105,8 @@
           color: #0366d6;
           box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
-        .sidebar-links a i {
+        .sidebar-links a i,
+        .sidebar-links-item i {
           margin-right: 10px;
           font-size: 1.2em;
           width: 20px;
@@ -114,12 +115,18 @@
       </style>
 
       <div class="sidebar-links">
-        {% if site.email %}
-        <a href="mailto:{{ site.email }}">
-          <i class="fas fa-envelope"></i> Email
-        </a>
-        {% endif %}
 
+        <!-- Email：直接显示，不跳转 -->
+        <div class="sidebar-links-item">
+          <i class="fas fa-envelope"></i> 2095245031@qq.com
+        </div>
+
+        <!-- WeChat：直接显示，不跳转 -->
+        <div class="sidebar-links-item">
+          <i class="fab fa-weixin"></i> Eterinty3
+        </div>
+
+        <!-- 其他带链接的按钮保持原样 -->
         {% if site.google_scholar %}
         <a href="{{ site.google_scholar }}" target="_blank">
           <i class="ai ai-google-scholar"></i> Google Scholar
@@ -138,9 +145,9 @@
         </a>
         {% endif %}
 
-        <!-- 微信：点击弹窗显示微信号，你要把“你的微信号”换成真实的 -->
-        <a href="javascript:void(0);" onclick="alert('Eterinty3')">
-          <i class="fab fa-weixin"></i> WeChat
+        <!-- 小红书（如果你想保留链接，继续用 a 标签；想纯展示就改成 div） -->
+        <a href="https://www.xiaohongshu.com/user/profile/你的ID" target="_blank">
+          <i class="fas fa-book-open"></i> Xiaohongshu
         </a>
 
         {% if site.orcid %}
@@ -155,6 +162,7 @@
         </a>
         {% endif %}
       </div>
+      
       <br>
       <br>
 
