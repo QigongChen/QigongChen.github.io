@@ -39,12 +39,21 @@
   }
 
   /* 2. 作者名字变色 */
-  .publications .author {
-    color: #8418b3 !important; /* 推荐的深蓝色 */
+  /* .publications .author {
+    color: #8418b3 !important;  推荐的深蓝色 
     font-weight: 500 !important;
     font-size: 1rem !important;
     margin-bottom: 4px;
-  }
+  } */
+
+  .publications .author strong,
+  .publications .author b {
+  color: #0366d6 !important;             /* 保持蓝色字体 */
+  background-color: #eaf3ff;             /* 加上浅蓝色的背景 */
+  padding: 2px 6px;                      /* 给背景加一点内边距，像个标签 */
+  border-radius: 4px;                    /* 圆角 */
+  font-weight: 700 !important;
+}
 
 
 </style>
