@@ -2,25 +2,23 @@
   /* 让论文缩略图完整显示，且不被裁切 */
   .publications .teaser,
   .publications img.teaser {
-    width: 100%;
-    height: auto;           /* 高度根据宽度自动缩放 */
-    max-height: none;       /* 去掉高度限制 */
-    object-fit: contain;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
     border-radius: 4px;
     display: block;
   }
 
   /* 图片容器：只负责留白和居中，不裁剪 */
   .publications .col-sm-3.abbr {
-    width: 280px;          /* 固定宽度，可按需调整 */
-    min-width: 280px;      /* 防止被 flex 压缩 */
-    max-width: 280px;
-    flex-shrink: 0;        /* 不允许被压缩 */
-    display: flex;
-    align-items: flex-start;   /* 顶部对齐，别强制居中 */
-    justify-content: center;
-    overflow: visible;         /* 允许完整展示 */
-    max-height: none;          /* 不再限制高度 */
+    width: 25% !important;      /* 模板默认的 3/12 栅格宽度 */
+    max-width: 25% !important;
+    min-width: 0 !important;
+    flex-shrink: 0;
+    display: block !important;  /* 恢复块级显示 */
+    overflow: visible !important;
+    max-height: none !important;          /* 不再限制高度 */
   }
 
     /* 论文标签样式 */
