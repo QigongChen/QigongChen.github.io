@@ -41,6 +41,12 @@ Not available！
 
 {% include_relative _includes/publications.html %}
 
+
+## 🏆 Awards
+
+- Second Prize, Undergraduate Group, CCF Outstanding Undergraduate Academic Showcase (YEF), 2025, [Link](https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA)
+
+
 {% comment %}
 ## 🏆 Notes and Presentations
 
