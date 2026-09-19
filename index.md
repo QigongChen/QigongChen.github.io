@@ -41,7 +41,8 @@ Not available！
 
 {% include_relative _includes/publications.html %}
 
-<!-- ## 🏆 Notes and Presentations
+{% comment %}
+## 🏆 Notes and Presentations
 
 {% include_relative _includes/notes.html %}
 
@@ -61,5 +62,6 @@ Not available！
 ## Misc. Links
 
 - [MathSciNet](https://mathscinet.ams.org/mathscinet)
-- [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/) -->
+- [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/) 
 
+{% endcomment %}
