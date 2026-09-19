@@ -18,7 +18,7 @@ My research interests mainly include graph theory, algorithm design and analysis
 
 ## 🎉 News
 <div style="height: 260px; overflow-y: auto; padding: 15px 15px 15px 25px; border: 1px solid #e1e4e8; border-radius: 8px; background-color: #f6f8fa;">
-Not available!
+Not available！
 <!-- - **[Feb. 2020]**  Seminar talk at NTU graduate student event<br>
 - **[Feb. 2020]**  Colloquium talk at Chung Hsing University 中興大學<br>
 - **[Sept. 2019]** Started Ph.D. program at NTU<br>
@@ -40,8 +40,6 @@ Not available!
 ## 📑 Publications
 
 {% include_relative _includes/publications.html %}
-
-## 🏆 Awards
 
 <!-- ## 🏆 Notes and Presentations
 
