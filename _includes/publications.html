@@ -111,6 +111,11 @@
             <a href="{{ pub.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">PDF</a>
             {% endif %}
+
+            {% if pub.ccf %}
+            <span style="color: #e63946; font-weight: bold; font-size: 1.05rem; margin-left: 10px; display: inline-flex; align-items: center; vertical-align: middle; letter-spacing: 0.5px;">{{ pub.ccf }}</span>
+            {% endif %}
+
             {% if pub.arxiv %}
             <a href="{{ pub.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">arXiv</a>
