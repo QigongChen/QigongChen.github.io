@@ -3,21 +3,21 @@
   .publications .col-sm-3.abbr img.teaser,
   .publications img.teaser {
     width: 100%;
-    height: auto;           /* 高度根据宽度自动缩放 */
-    max-height: none;      
+    height: 160px;           /* 高度根据宽度自动缩放 */
+    /*max-height: none;*/      
     object-fit: contain;
     border-radius: 4px;
     display: block;
-    
+    background-color: #f6f8fa; /* 如果留白看着难受，可以给个淡淡的底色如 #f6f8fa */
   }
 
   .publications .col-sm-3.abbr {
     
     display: flex;
-    align-items: flex-start;   /* 顶部对齐，别强制居中 */
+    align-items: center;    /* 改为居中对齐，因为图片高度现在固定了 */
     justify-content: center;
     overflow: visible;         /* 允许完整展示 */
-    max-height: none;          /* 不再限制高度 */
+    max-height: 160px;          /* 不再限制高度 */
     min-width: 0; /* 关键：防止 flex 子项被强制压缩 */
   }
 
