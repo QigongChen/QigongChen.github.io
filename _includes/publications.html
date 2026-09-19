@@ -12,6 +12,10 @@
 
   /* 图片容器：只负责留白和居中，不裁剪 */
   .publications .col-sm-3.abbr {
+    width: 280px;          /* 固定宽度，可按需调整 */
+    min-width: 280px;      /* 防止被 flex 压缩 */
+    max-width: 280px;
+    flex-shrink: 0;        /* 不允许被压缩 */
     display: flex;
     align-items: flex-start;   /* 顶部对齐，别强制居中 */
     justify-content: center;
