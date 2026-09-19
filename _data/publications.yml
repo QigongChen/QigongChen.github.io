@@ -10,6 +10,7 @@ main:
       - "Fault Tolerance"
       - "Network Topology"
       #- "CCF-B"
+    pdf: https://www.e-publications.org/ims/submission/AIHP/user/submissionFile/64215?confirm=e312f995
     image: "./assets/img/non-inclusive_algorithm.png"
 #<strong>a</strong>会把字体加粗变黑
     #"./assets/img/non-inclusive algorithm.png"
