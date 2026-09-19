@@ -9,7 +9,7 @@ main:
       - "Reliability"
       - "Fault Tolerance"
       - "Network Topology"
-      - "CCF-B"
+      #- "CCF-B"
     image: "./assets/img/non-inclusive_algorithm.png"
     #"./assets/img/non-inclusive algorithm.png"
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
